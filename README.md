@@ -9,6 +9,7 @@ This repo contains a bunch of React.js examples. No server side code, just clien
 
 * Install: `npm install`
 * Start: `npm start`
+* Open `http://localhost:3000/` on your browser
 
 ### License
 
