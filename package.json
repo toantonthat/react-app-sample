@@ -1,0 +1,31 @@
+{
+  "name": "react-sample",
+  "version": "1.0.0",
+  "description": "Just a bunch of React.js examples",
+  "author": "ToanTT",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack s --config webpack.config.js --mode development"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "@babel/preset-react": "^7.14.5",
+    "@babel/preset-typescript": "^7.14.5",
+    "@types/react": "^17.0.14",
+    "@types/react-dom": "^17.0.9",
+    "babel-loader": "^8.2.2",
+    "style-loader": "^0.23.1",
+    "css-loader": "^3.1.0",
+    "html-webpack-plugin": "^5.3.2",
+    "react-refresh": "^0.10.0",
+    "typescript": "^4.3.5",
+    "webpack": "^5.45.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
