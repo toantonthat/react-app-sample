@@ -2,7 +2,7 @@ var path = require('path');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  entry: './src/index.jsx',
+  entry: './src/redux-main.jsx',
 
   output: {
     path: `${__dirname}/dist`,

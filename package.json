@@ -2,7 +2,7 @@
   "name": "react-sample",
   "version": "1.0.0",
   "description": "Just a bunch of React.js examples",
-  "author": "ToanTT",
+  "author": "ToanTT <toantp.91@gmail.com>",
   "license": "MIT",
   "scripts": {
     "start": "webpack s --config webpack.config.js --mode development"
@@ -25,8 +25,10 @@
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
+    "@babel/polyfill": "^7.12.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "redux": "^4.1.2",
     "redux-saga": "^1.1.3"
   }
 }
