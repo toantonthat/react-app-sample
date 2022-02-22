@@ -11,6 +11,9 @@ const store = createStore(reducer);
 const action = type => store.dispatch({type});
 
 function render() {
+    console.log('store ', store.getState());
+    console.log('action ', action.type);
+
     ReactDOM.render(
         <Counter 
             value={store.getState()}
