@@ -11,6 +11,10 @@ This repo contains a bunch of React.js examples. No server side code, just clien
 * Start: `npm start`
 * Open `http://localhost:3000/` on your browser
 
+### Reference
+* https://github.com/redux-saga/redux-saga/blob/master/examples/shopping-cart/src/actions/index.js
+* https://redux-saga.js.org/docs/basics/DeclarativeEffects
+
 ### License
 
 Apache
